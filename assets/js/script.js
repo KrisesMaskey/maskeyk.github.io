@@ -136,13 +136,13 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 var message = "";
 $("#btttn").on("click", function() {
-    message = $("#myform").serialize();
-    $.ajax({
-        url: "https://formspree.io/f/mknegzkn", 
-        method: "POST",
-        data: {message: message},
-        dataType: "json"
-    });
+//     message = $("#myform").serialize();
+//     $.ajax({
+//         url: "https://formspree.io/f/mknegzkn", 
+//         method: "POST",
+//         data: {message: message},
+//         dataType: "json"
+//     });
     alert('Thanks for the email, we\'ll be in touch promptly.');
     document.getElementById("myform").reset(); 
     return false;
